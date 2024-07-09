@@ -1,0 +1,285 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.first-section {
+  width: 1920px;
+  height: 950px;
+}
+.first-section .container {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+.first-section .container .back-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.postimg.cc/wvjyS7Vs/page-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+position: relative;
+}
+@keyframes moving {
+	0% {
+		top:196px;
+	}
+	to {
+		top:210px;
+	} 
+}
+.first-section .container .mocha-img {
+  width: 488px;
+  height: 754px;
+  position: absolute;
+  top: 196px;
+  left: 450px;
+  animation: moving 1s ease-in Infinite Alternate;
+}
+.first-section .container .mocha-img img {
+  width: 488px;
+  height: 100%;
+  object-fit: cover;
+}
+.first-section .container .text-img {
+  width: 543px;
+  height: 242px;
+  position: absolute;
+  top: 400px;
+  right: 300px;
+}
+.first-section .container .text-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page2-section {
+  width: 1920px;
+}
+.page2-section .container {
+  width: 1440px;
+  height: 861px;
+  margin: 0 auto;
+  position: relative;
+}
+.page2-section .container .back-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.postimg.cc/gkLWgmvc/page-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2-section .container .back-img .page2-img-section {
+  width: 1120px;
+  height: 726px;
+  padding-top: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2-section .container .back-img .page2-img-section .page2-img-bg {
+  width: 500px;
+  height: 100%;
+  background-image: url('https://i.postimg.cc/43bbz5pg/page2-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.page2-section .container .text-img {
+  position: absolute;
+  top: 308px;
+  left: 182px;
+  width: 1120px;
+  height: 384px;
+}
+.page2-section .container .text-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page3-section {
+  width: 1920px;
+}
+.page3-section .container {
+  width: 1440px;
+  height: 1736px;
+  margin: 0 auto;
+  background-color: #FFFAF3;
+  border-radius: 50px;
+}
+.page3-section .container .first {
+  width: 100%;
+  height: 682px;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3-section .container .first .img {
+  width: 1333px;
+  height: 712px;
+  background-image: url('page-3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page3-section .container .second {
+  width: 1348px;
+  height: 802px;
+  padding-right: 46px;
+  padding-left: 46px;
+  padding-top: 60px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3-section .container .second .img {
+  width: 1346px;
+  height: 802px;
+  background-image: url('page-3-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page4-section {
+  width: 1920px;
+}
+.page4-section .container {
+  width: 1440px;
+  height: 888px;
+  padding-top: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4-section .container .img {
+  width: 1137px;
+  height: 813px;
+  background-image: url('page-4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page5-section {
+  width: 1920px;
+}
+.page5-section .container {
+  width: 1440px;
+  height: 1117px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-image: url('page-5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page6-section {
+  width: 1920px;
+}
+.page6-section .container {
+  width: 1440px;
+  height: 969px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-image: url('page-6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page7-section {
+  width: 1920px;
+}
+.page7-section .container {
+  width: 1440px;
+  height: 1596px;
+  margin: 0 auto;
+  background-image: url('page-7.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page8-section {
+  width: 1920px;
+}
+.page8-section .container {
+  width: 1440px;
+  height: 936px;
+  margin: 0 auto;
+  background-image: url('page-8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page9-section {
+  width: 1920px;
+}
+.page9-section .container {
+  width: 1440px;
+  height: 1390px;
+  margin: 0 auto;
+  background-image: url('page-9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page10-section {
+  width: 1920px;
+}
+.page10-section .container {
+  width: 1440px;
+  height: 3249px;
+  margin: 0 auto;
+  background-image: url('page-10.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page11-section {
+  width: 1920px;
+}
+.page11-section .container {
+  width: 1440px;
+  height: 2684px;
+  margin: 0 auto;
+  background-image: url('page-11.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page12-section {
+  width: 1920px;
+}
+.page12-section .container {
+  width: 1440px;
+  height: 990px;
+  margin: 0 auto;
+  background-image: url('page-12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page13-section {
+  width: 1920px;
+}
+.page13-section .container {
+  width: 1440px;
+  height: 715px;
+  margin: 0 auto;
+  background-image: url('page-13.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}.last-section {
+  width: 1920px;
+  height: 152px;
+}
